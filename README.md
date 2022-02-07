@@ -1,4 +1,4 @@
-# Training Supervised Machine Learning Models for Heart Disease Classification
+# Training supervised machine learning models for heart failure classification
 
 This Jupyter notebook aims to outline how to train and evaluate the effectiveness of 4 different classification models using logistic regression, decision tree classifier, random forest classifier, XGBoost on multiple heart disease datasets. The goal is to find the most accurate model in terms of accuracy when predicting the probability of heart failure. Each model is trained on 60% of the original dataset and hyperparameters are tuned where necessary in an attempt to obtain the best version of a particular supervised learning algorithm. Upon training and evaluating all 4 models, K-Fold cross validation is utilised to discover which model performs best in terms of our evaluation metrics: ROC AUC score and accuracy on 5 different folds of the data. 
 
